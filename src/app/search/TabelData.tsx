@@ -38,7 +38,17 @@ const TabelData: React.FC<TableProps> = ({ data: originalData, filterText }) => 
       const filtered = originalData.filter(
         (item) =>
           item.bkph.toLowerCase().includes(filterText.toLowerCase()) ||
-          item.anakpetak.toString() === filterText.trim()
+          item.anakpetak.toLowerCase().includes(filterText.toLowerCase()) ||
+          item.bagianhutan.toLowerCase().includes(filterText.toLowerCase()) ||
+          item.rph.toLowerCase().includes(filterText.toLowerCase()) ||
+          item.desa.toString() === filterText.trim() ||
+          item.kabupaten.toLowerCase().includes(filterText.toLowerCase()) ||
+          item.luasbaku.toString() === filterText.trim() ||
+          item.jenistanaman.toString() == filterText.trim() ||
+          item.tahuntanam.toString() === filterText.trim() ||
+          item.nha.toString() === filterText.trim() ||
+          item.kelashutan.toLowerCase().includes(filterText.toLowerCase())
+        
       );
       setFilteredData(filtered);
     }
