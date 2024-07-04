@@ -1,5 +1,7 @@
 "use client"
+import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/next';
+
 import React from 'react'
 
 
@@ -10,6 +12,7 @@ const page = () => {
   return (
     <>
     <SpeedInsights />
+    <Analytics />
     <div className='text-center my-52 text-white'>
         <h1 className='text-3xl font-Anton'>Hai, Welcome</h1>
         <p>Hanya Page biasa</p>

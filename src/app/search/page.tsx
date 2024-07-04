@@ -5,6 +5,7 @@ import { TiCloudStorage } from "react-icons/ti";
 import axios from 'axios';
 import { useEffect, useState } from "react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/react"
 
 export default function Home() {
 
@@ -31,6 +32,7 @@ export default function Home() {
   return (
     <>
     <SpeedInsights />
+    <Analytics />
     <div className="App">
       <div className="flex justify-between items-center mt-28">
         <h1 className="flex items-center text-white md:px-12 px-4 text-4xl font-bold">Cari Data</h1>
