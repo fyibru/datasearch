@@ -31,14 +31,14 @@ export default function Home() {
     <>
     <div className="App">
       <div className="flex justify-between items-center mt-28">
-        <h1 className="flex items-center text-white md:px-36 px-20 text-4xl font-bold">Cari Data</h1>
+        <h1 className="flex items-center text-white md:px-12 px-4 text-4xl font-bold">Cari Data</h1>
       <form className="text-center mb-12 mt-12">
         <input
           type="text"
           placeholder="Cari dengan Name/ID"
           value={filterText}
           onChange={handleFilterChange}
-          className="rounded-lg w-30 py-4 text-center md:mr-32 mr-16 outline-none"
+          className="rounded-lg w-5/6 py-4 text-center md:mr-32  outline-none"
         />
       </form>
         </div>

@@ -91,6 +91,7 @@ const TabelData: React.FC<TableProps> = ({ data: originalData, filterText }) => 
   };
 
   return (
+    <div className=''>
     <div className='flex flex-col text-center'>
       <div className='-m-1.5 overflow-x-auto'>
         <div className='p-1.5 inline-block align-middle'>
@@ -161,6 +162,7 @@ const TabelData: React.FC<TableProps> = ({ data: originalData, filterText }) => 
             </table>
           </div>
         </div>
+      </div>
       </div>
 
       {/* Pagination */}
