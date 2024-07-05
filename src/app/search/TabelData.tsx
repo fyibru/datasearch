@@ -176,7 +176,7 @@ const TabelData: React.FC<TableProps> = ({ data: originalData, filterText }) => 
       </div>
 
       {/* Pagination */}
-      <div className='flex justify-center mt-4'>
+      <div className='flex justify-center mt-6 mb-20'>
         <nav className='inline-flex rounded-md shadow-sm -space-x-px' aria-label='Pagination'>
           <button
             onClick={() => paginate(currentPage - 1)}

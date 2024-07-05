@@ -47,11 +47,6 @@ export default function Home() {
       </form>
         </div>
       <TabelData data={data} filterText={filterText} />
-
-    </div>
-    <div className="mt-52 text-white font-bold flex justify-center" id="foot">
-      <TiCloudStorage className="text-2xl align-center mr-3"/>
-      Data Search Perencanaan 2024-2025
     </div>
     </>
   );
