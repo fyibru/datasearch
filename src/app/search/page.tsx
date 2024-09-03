@@ -39,7 +39,7 @@ export default function Home() {
       <form className="text-center mb-12 mt-12">
         <input
           type="text"
-          placeholder="Cari BKPH/RPH/LMDH/DESA/AnakPetak"
+          placeholder="Cari BKPH/RPH/AnakPetak"
           value={filterText}
           onChange={handleFilterChange}
           className="rounded-lg w-5/6 py-4 text-center md:mr-32  outline-none"
